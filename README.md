@@ -6,6 +6,8 @@ A real-time currency converter web application that fetches the latest exchange 
 
 
 <br>
+<br>
+<br>
 
 ## 🚀 Live Demo
 
@@ -56,8 +58,11 @@ https://cdn.jsdelivr.net/npm/@fawazahmed0/currency-api@latest/v1/currencies/{fro
 <br>
 
 🖼️ UI Preview 
+<br>
+<br>
 <img width="895" height="806" alt="Screenshot from 2025-07-30 11-02-17" src="https://github.com/user-attachments/assets/2e0a3a3e-697f-4768-8354-b70a46e7398d" />
 
+<br>
 <br>
 
 📁 CurrencyConverter/
@@ -66,6 +71,7 @@ https://cdn.jsdelivr.net/npm/@fawazahmed0/currency-api@latest/v1/currencies/{fro
 ├── app.js
 ├── codes.js
 
+<br>
 <br>
 
 ✅ To Run Locally
@@ -78,6 +84,7 @@ git clone https://github.com/yourusername/currency-converter.git
 Open index.html in your browser.
 
 
+<br>
 <br>
 
 📌 Future Improvements
