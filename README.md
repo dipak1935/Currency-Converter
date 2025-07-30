@@ -9,7 +9,7 @@ A real-time currency converter web application that fetches the latest exchange 
 
 ## 🚀 Live Demo
 
-🔗 <a href="https://dipak1935.github.io/Currency-Converter/">Click here to view the hosted site]</a>
+🔗 <a href="https://dipak1935.github.io/Currency-Converter/" target="_blank">Click here to view the hosted site]</a>
 
 
 🚀 Features
@@ -23,6 +23,8 @@ A real-time currency converter web application that fetches the latest exchange 
 
 💡 Clean UI using HTML & CSS, with icon support via FontAwesome
 
+<br>
+
 🛠️ Technologies Used
 HTML5 – for structured content
 
@@ -35,6 +37,8 @@ Currency API – CDN: https://cdn.jsdelivr.net/npm/@fawazahmed0/currency-api
 Flags API – Dynamic flag rendering using country codes
 
 Font Awesome – Icons for better UX
+<br>
+<br>
 
 ⚙️ How It Works
 User selects the "From" and "To" currencies via dropdown menus.
@@ -49,17 +53,20 @@ Rates are retrieved using:
 
 https://cdn.jsdelivr.net/npm/@fawazahmed0/currency-api@latest/v1/currencies/{from}.json
 
+<br>
 
 🖼️ UI Preview 
 <img width="895" height="806" alt="Screenshot from 2025-07-30 11-02-17" src="https://github.com/user-attachments/assets/2e0a3a3e-697f-4768-8354-b70a46e7398d" />
 
-
+<br>
 
 📁 CurrencyConverter/
 ├── index.html
 ├── style.css
 ├── app.js
 ├── codes.js
+
+<br>
 
 ✅ To Run Locally
 No backend or server is needed.
@@ -71,6 +78,7 @@ git clone https://github.com/yourusername/currency-converter.git
 Open index.html in your browser.
 
 
+<br>
 
 📌 Future Improvements
 Add dark mode
