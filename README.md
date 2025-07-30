@@ -6,9 +6,11 @@ A real-time currency converter web application that fetches the latest exchange 
 
 
 <br>
-<br>
-<br>
-<br>
+
+## 🚀 Live Demo
+
+🔗 <a href="https://dipak1935.github.io/Currency-Converter/">Click here to view the hosted site]</a>
+
 
 🚀 Features
 🌐 Real-time exchange rate fetching from Fawaz Ahmed's Currency API
