@@ -41,8 +41,8 @@ Rates are retrieved using:
 https://cdn.jsdelivr.net/npm/@fawazahmed0/currency-api@latest/v1/currencies/{from}.json
 
 
-🖼️ UI Preview (Optional)
-Add a screenshot here if you want to showcase how the app looks.<img width="895" height="806" alt="Screenshot from 2025-07-30 11-02-17" src="https://github.com/user-attachments/assets/2e0a3a3e-697f-4768-8354-b70a46e7398d" />
+🖼️ UI Preview 
+<img width="895" height="806" alt="Screenshot from 2025-07-30 11-02-17" src="https://github.com/user-attachments/assets/2e0a3a3e-697f-4768-8354-b70a46e7398d" />
 
 
 
@@ -51,6 +51,7 @@ Add a screenshot here if you want to showcase how the app looks.<img width="895"
 ├── style.css
 ├── app.js
 ├── codes.js
+
 ✅ To Run Locally
 No backend or server is needed.
 
