@@ -1,95 +1,66 @@
-🪙 <b>Currency Converter Web App</b>
+# 🪙 Currency Converter Web App
 
-📌 Description
-A real-time currency converter web application that fetches the latest exchange rates using a public API and provides accurate conversion between any two selected currencies. The app enhances the user experience with country flags, dynamic dropdowns, and auto-filled fields.
+A clean, modern, and real-time currency converter web application that fetches the latest exchange rates using a public API. It provides accurate, instant conversions between 100+ global currencies, styled with a premium **Glassmorphism** layout.
 
-
-
-<br>
-<br>
-<br>
+---
 
 ## 🚀 Live Demo
 
-🔗 <a href="https://dipak1935.github.io/Currency-Converter/" target="_blank">Click here to view the hosted site]</a>
+🔗 [Click here to view the hosted site](https://dipak1935.github.io/Currency-Converter/)
 
+---
 
-🚀 Features
-🌐 Real-time exchange rate fetching from Fawaz Ahmed's Currency API
+## ✨ Features
 
-🔄 Currency selection with country flags for "From" and "To"
+- 🔮 **Glassmorphism UI**: A premium, modern interface featuring a frosted-glass container set against a soft, elegant pastel gradient backdrop.
+- ⚡ **Auto-Fetch & Live Rates**: Fetches live, real-time exchange rates automatically when the page loads or when dropdown selections are changed.
+- 🔄 **Currency Swap**: Clickable swap button that physically swaps selected currencies and flags with a smooth rotation animation.
+- 💾 **State Persistence**: Uses browser `localStorage` to remember the user's last selected currencies across page refreshes.
+- 🎯 **Robust Input Validation**: Safely handles invalid, empty, or negative amount inputs by gracefully defaulting to `1`.
+- 🏳️ **Country Flag Indicators**: Displays the flags of selected countries dynamically to improve usability.
 
-🔢 Converts amount instantly with a default fallback to 1 if empty or invalid
+---
 
-🧩 Dynamically populates the dropdowns with over 100 currency options
+## 🛠️ Technologies Used
 
-💡 Clean UI using HTML & CSS, with icon support via FontAwesome
+- **HTML5** - Structured document markup
+- **CSS3 (Vanilla)** - Premium Glassmorphism styling, layout, transitions, and hover micro-animations
+- **JavaScript (ES6+)** - Reusable async-await fetch logic, localStorage persistence, and DOM event handling
+- **Currency API** - Live CDN: `https://cdn.jsdelivr.net/npm/@fawazahmed0/currency-api`
+- **Flags API** - Dynamic country flags via `https://flagsapi.com/`
+- **Font Awesome v6** - Vector icons for clean layout UI
 
-<br>
+---
 
-🛠️ Technologies Used
-HTML5 – for structured content
+## ⚙️ How It Works
 
-CSS3 – for styling the layout
+1. Enter an amount in the input box.
+2. Select your **From** and **To** currencies from the dropdown selections.
+3. The app automatically fetches the latest rate and updates the exchange value dynamically, or you can click **Get Exchange Rate** to refresh.
+4. Use the **Swap Icon** in the center to instantly swap the two currencies.
+5. Your currency selections are automatically stored in the browser's local storage for your next visit.
 
-JavaScript (Vanilla) – for DOM manipulation and API integration
+---
 
-Currency API – CDN: https://cdn.jsdelivr.net/npm/@fawazahmed0/currency-api
+## 📁 File Structure
 
-Flags API – Dynamic flag rendering using country codes
+```text
+Currency-Converter/
+├── index.html     # HTML structure
+├── style.css      # Custom CSS & Glassmorphism styles
+├── app.js         # Core application logic & API connection
+├── codes.js       # Mapping of currency codes to country codes
+└── README.md      # Documentation
+```
 
-Font Awesome – Icons for better UX
-<br>
-<br>
+---
 
-⚙️ How It Works
-User selects the "From" and "To" currencies via dropdown menus.
+## ⚙️ Running Locally
 
-Currency symbols and flags update automatically based on selection.
+No server or bundlers required. To run this project locally:
 
-User enters the amount (defaults to 1 if left empty or invalid).
-
-On clicking "Get Exchange Rate", the app fetches the current rate and displays the converted value.
-
-Rates are retrieved using:
-
-https://cdn.jsdelivr.net/npm/@fawazahmed0/currency-api@latest/v1/currencies/{from}.json
-
-<br>
-
-🖼️ UI Preview 
-<br>
-<br>
-<img width="895" height="806" alt="Screenshot from 2025-07-30 11-02-17" src="https://github.com/user-attachments/assets/2e0a3a3e-697f-4768-8354-b70a46e7398d" />
-
-<br>
-<br>
-
-📁 CurrencyConverter/
-├── index.html
-├── style.css
-├── app.js
-├── codes.js
-
-<br>
-<br>
-
-✅ To Run Locally
-No backend or server is needed.
-
-Clone the repo:
-
-git clone https://github.com/yourusername/currency-converter.git
-
-Open index.html in your browser.
-
-
-<br>
-<br>
-
-📌 Future Improvements
-Add dark mode
-
-Auto-swap functionality for "From" and "To"
-
-Graphical representation of exchange trends
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/yourusername/currency-converter.git
+   ```
+2. Open `index.html` in your favorite web browser.

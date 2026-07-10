@@ -1,86 +1,148 @@
-*{
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+* {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
 }
 
-body{
+body {
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background-color:#fbeaea;
+    background: linear-gradient(135deg, #fcebeb 0%, #f3d6ec 50%, #e0c3fc 100%);
 }
 
-.container{
-    background-color: white;
-    padding: 2rem;
-    border-radius: 1rem;
-    min-height: 45vh;
-    width: 40vh;
-
-
+.container {
+    background: rgba(255, 255, 255, 0.45);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    box-shadow: 0 8px 32px 0 rgba(175, 77, 152, 0.08);
+    padding: 2.5rem 2rem;
+    border-radius: 1.5rem;
+    width: 360px;
 }
 
-form{
+form {
     margin: 2rem 0 1rem 0;
 }
 
-form select,button,input{
+form select, form button, form input {
     width: 100%;
     border: none;
     outline: none;
-    border-radius:0.75rem;
-
+    border-radius: 0.5rem;
 }
 
-from input{
-    border:1px solid lightgray;
-    font-size:1rem;
+.amount p {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+    color: #333;
+}
+
+.amount input {
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    background: rgba(255, 255, 255, 0.5);
+    font-size: 1rem;
     height: 3rem;
-    padding-left: 0.5rem;
+    padding-left: 0.75rem;
+    transition: all 0.2s ease;
+    color: #333;
 }
 
-.dropdown{
+.amount input:focus {
+    border-color: #af4d98;
+    background: rgba(255, 255, 255, 0.85);
+    box-shadow: 0 0 10px rgba(175, 77, 152, 0.1);
+}
+
+.dropdown {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 2rem;
-
+    margin-top: 1.5rem;
 }
 
-.dropdown i{
-    font-size: 1.5rem;
-    margin-top: 1rem;
+.dropdown p {
+    font-size: 0.9rem;
+    margin-bottom: 0.25rem;
+    color: #666;
 }
 
-.select-container img{
-    max-width: 2rem;
+.dropdown i {
+    font-size: 1.1rem;
+    margin-top: 1.25rem;
+    cursor: pointer;
+    transition: transform 0.3s ease, color 0.2s ease, background-color 0.2s ease;
+    color: #555;
+    width: 2.5rem;
+    height: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.45);
+    border: 1px solid rgba(255, 255, 255, 0.35);
 }
 
-.select-container{
+.dropdown i:hover {
+    transform: rotate(180deg);
+    color: #af4d98;
+    background: rgba(255, 255, 255, 0.8);
+    box-shadow: 0 4px 12px rgba(175, 77, 152, 0.1);
+}
+
+.select-container {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 6rem;
+    width: 7rem;
     border-radius: 0.5rem;
-    border: 1px solid lightgray;
-
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    background: rgba(255, 255, 255, 0.5);
+    padding: 0.25rem 0.5rem;
+    transition: all 0.2s ease;
 }
 
-.select-container select{
+.select-container:focus-within {
+    border-color: #af4d98;
+    background: rgba(255, 255, 255, 0.85);
+    box-shadow: 0 0 10px rgba(175, 77, 152, 0.15);
+}
+
+.select-container img {
+    max-width: 1.75rem;
+    margin-right: 0.25rem;
+}
+
+.select-container select {
     font-size: 1rem;
     width: auto;
+    background: transparent;
+    cursor: pointer;
 }
 
 .msg {
-    margin: 2rem 0 2rem 0;
-    /* align-self: center; */
+    margin: 2rem 0;
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: #333;
+    text-align: center;
 }
 
 form button {
     height: 3rem;
     background-color: #af4d98;
-    color:#fff;
-    font-size:1.15rem;
-    cursor:pointer
+    color: #fff;
+    font-size: 1.1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+form button:hover {
+    background-color: #923a7e;
 }
